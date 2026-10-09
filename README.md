@@ -11,7 +11,7 @@ The goal is accuracy and traceability—not a large list of unverified matches. 
 - A transparent process for adding and correcting records.
 - A starting point for tools that help people identify the right consumable.
 
-This project is maintained by contributors interested in making consumables information easier to verify. It is not affiliated with printer manufacturers.
+This project is maintained by Vonex (vonex.ca), a Saskatoon-based supplier of printer supplies, together with other contributors. It is not affiliated with printer manufacturers.
 
 ## Start here
 
@@ -19,7 +19,7 @@ This project is maintained by contributors interested in making consumables info
 - [Verification and contribution guidelines](CONTRIBUTING.md)
 - [How to identify the right cartridge](docs/how-to-identify-the-right-cartridge.md)
 - [Verified example records](data/verified-examples.csv) — sourced examples from official manufacturer pages, with regional limitations noted
-- [Blank CSV template](data/printer-consumables-compatibility.csv)
+- [Main compatibility dataset](data/printer-consumables-compatibility.csv) — Brother, Xerox, Konica Minolta, HP and Kyocera records, each with a source and verification status (US and Canada rows are kept separate)
 
 ## Data quality rules
 
@@ -30,7 +30,7 @@ This project is maintained by contributors interested in making consumables info
 5. Mark uncertain entries as unverified and keep them out of verified datasets.
 6. Correct errors openly and preserve enough source information for another person to reproduce the check.
 
-The initial verified examples include Brother TN850 compatibility records sourced from Brother USA and Canon 054 black toner records sourced from Canon Canada. The Brother entries are explicitly marked US-region; do not assume a US part number or listing is the correct Canadian SKU. This is a small starter dataset, not a complete compatibility catalog.
+The initial verified examples include Brother TN850 compatibility records sourced from Brother USA and Canon 054 black toner records sourced from Canon Canada. The Brother entries are explicitly marked US-region; do not assume a US part number or listing is the correct Canadian SKU. The main dataset adds Canadian-source rows for Brother and Xerox, a Konica Minolta Canada source, and rows marked `needs_review` or `unverified` where no official source was found (Kyocera TK-8337C, HP CE514A). This is still a small dataset, not a complete compatibility catalog.
 
 ## How to contribute
 
