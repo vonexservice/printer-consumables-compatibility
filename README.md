@@ -17,6 +17,8 @@ This project is maintained by contributors interested in making consumables info
 
 - [Data format and field definitions](docs/data-format.md)
 - [Verification and contribution guidelines](CONTRIBUTING.md)
+- [How to identify the right cartridge](docs/how-to-identify-the-right-cartridge.md)
+- [Verified example records](data/verified-examples.csv) — sourced examples from official manufacturer pages, with regional limitations noted
 - [Blank CSV template](data/printer-consumables-compatibility.csv)
 
 ## Data quality rules
@@ -28,7 +30,7 @@ This project is maintained by contributors interested in making consumables info
 5. Mark uncertain entries as unverified and keep them out of verified datasets.
 6. Correct errors openly and preserve enough source information for another person to reproduce the check.
 
-No complete verified compatibility dataset is included yet. Records will be added only after they have been checked against reliable documentation.
+The initial verified examples include Brother TN850 compatibility records sourced from Brother USA and Canon 054 black toner records sourced from Canon Canada. The Brother entries are explicitly marked US-region; do not assume a US part number or listing is the correct Canadian SKU. This is a small starter dataset, not a complete compatibility catalog.
 
 ## How to contribute
 
